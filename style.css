@@ -12,20 +12,24 @@
 
 .header{
    position: fixed;
-   top: 1rem;
+   top: 4%;
    left: 50%;
    transform: translateX(-50%); 
    display: flex;
    align-items: center;
    justify-content: center;
-   gap: 5rem;
+   gap: 2rem;
    background-color: rgba(0,0,0,0.8);
    backdrop-filter: blur(8px);
    color: white;
    padding: 0.5rem, 1.5rem;
    border-radius: 3rem;
    z-index: 1000;
+}
 
+body{
+    background-color: rgb(32, 32, 32);
+    background-size: cover;
 }
 
 .logo{
@@ -68,6 +72,11 @@ li a::before{
 li a:hover::before{
     width: 100%;
 
+}
+
+li a:hover{
+    background: white;
+    color: black;
 }
 
 .visit-btn{
